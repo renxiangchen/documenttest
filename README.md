@@ -1,6 +1,4 @@
 # Applications apt-get install notes
-
-## use apt-get
 Developers can add a new entry pointing to OS source files and then use `apt-get` to install some common applications or libraries.
 
 ## Command Example
@@ -17,5 +15,8 @@ deb [trusted=yes] http://47.89.252.251:8000/ubuntu24.04 ./
 sudo apt-get update
 sudo apt-get install firefox
 ```
-- Chrome
 - LibreOffice
+```bash
+sudo apt update
+sudo apt-get install libreoffice
+```
